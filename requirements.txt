@@ -1,0 +1,20 @@
+Please create a C program that implements a tiny basic interpreter. 
+The language should support arithmetic expressions, variables, and control flow statements.
+The interpreter should be able to execute a program written in this language.  
+The interpreter should be limited to integer arithmetic and should support the following commands:
+
+PRINT	Print a comma separated list of values, and string constants in quotes.
+LET	Assign a value to a variable
+GOTO	Jump to a line number
+IF	Conditional jump
+END	End of program
+
+Variables are single letters A-Z and are initialized to 0.
+DIM	Declare an array with a given size and name A-Z
+
+LOAD to load a program from a file
+SAVE to save a program to a file
+RUN to run the program
+LIST to list the program
+NEW to clear the program
+QUIT to quit the interpreter
