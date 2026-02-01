@@ -1,0 +1,7 @@
+10 LET A = 5
+20 PRINT A, " is five"
+30 END
+RUN
+LIST
+PRINT 2+3*4
+QUIT

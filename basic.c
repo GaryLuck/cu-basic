@@ -476,6 +476,7 @@ int main(void) {
     char buf[MAX_LINELEN];
     for (;;) {
         printf("> ");
+        fflush(stdout);
         if (!fgets(buf, sizeof(buf), stdin)) break;
         if (process_input(buf)) break;
     }
